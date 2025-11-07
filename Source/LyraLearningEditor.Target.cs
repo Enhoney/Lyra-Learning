@@ -10,6 +10,6 @@ public class LyraLearningEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6;
-		ExtraModuleNames.Add("LyraLearning");
+		ExtraModuleNames.AddRange(new string[] { "LyraLearningGame", "LyraLearningEditor" });
 	}
 }
